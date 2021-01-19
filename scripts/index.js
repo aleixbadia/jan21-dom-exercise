@@ -1,5 +1,6 @@
 'use strict';
 
+/* 
 
 // Working with Attributes of the elements
 
@@ -37,6 +38,7 @@ console.log('list', list);
 list.removeAttribute('id');
 
 
+ */
 
 // CREATE NEW ELEMENTS
 // document.createElement( elementType )
@@ -51,7 +53,7 @@ body.appendChild(h2Tag);
 
 
 // Adding content to an element 
-// .innerHTML = 'content'    or   .createTextNode('text content')
+// .innerHTML = 'content'    or   .createTextNode('text content')   or   .textContent = ' text content'
 // .innerHTML is dynamic and it can be used to create HTML elements
 
 // Create element
@@ -66,7 +68,20 @@ const textContent2 = document.createTextNode('Lorem Ipsum'.repeat(100));
 articleBrief.appendChild(textContent1);
 articleContent.appendChild(textContent2);
 
-// Append element with to the body
+// Append element (with text) to the body
 body.appendChild(articleBrief);
 body.appendChild(articleContent);
 
+// 1. Create an image element
+
+
+// 2. Add the `src` attribute with the link to an image
+
+
+// 3. Add style.width and style.height to the image node
+
+
+// 4. Append the image "before" the `articleBrief`
+
+
+// ...
